@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <title>ポートフォリオ</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#profile"
+                >プロフィール</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">スキル</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">成果物</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header">
+      <h1>RYUHEI KARAHASHI's portflio</h1>
+    </header>
+    <div class="main">
+      <div class="profile field">
+        <div class="title profile">
+          <h2 id="profile">プロフィール</h2>
+        </div>
+        <div class="profile-photo">
+          <img src="./images/プロフィール写真.png" alt="プロフィール写真" />
+        </div>
+        <div class="profile-contents">
+          <p>
+            はじめまして。平成5年生まれの25歳エンジニアのなおと(@naoto_7713)と申します。社会人歴（IT業界）4年目です。
+            新卒では中小企業のSIerに入社しました。常駐先ではウォータフォール型でデスクトップアプリ開発に携わりました。1年目は開発、2年目は問い合わせ対応と業務効率化のツールを作成です。
+            ただ、自分で勉強していくうちにもっと開発をしたい！！Webに携わりたい！！と思い転職を決意。
+            web系の自社開発に入社し、現在はフルスタックエンジニアとして働いております。直近でフロントはSPAで実装して、バックエンドはAPI開発です。（2018年8月12日更新）
+          </p>
+        </div>
+      </div>
+      <div class="skill field">
+        <div class="title skill">
+          <h2 id="skill">スキル</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 ps-3 pe-3">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">デザイン・コーディング</h5>
+                <p class="card-text">基本的な事は一通りできます。CSSフレームワークはbootstrap使いました。</p>
+                <div class="skill-table">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th>技術</th>
+                      <th>スキル</th>
+                    </tr>
+                    <tr>
+                      <td>HTML</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar html"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>CSS</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar css"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h5 class="card-title">フロントエンド</h5>
+                <p class="card-text">直近ではAngularJSを使用して開発していました。</p>
+                <div class="skill-table">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th>技術</th>
+                      <th>スキル</th>
+                    </tr>
+                    <tr>
+                      <td>javascript</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar javascript"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>jquery</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar jquery"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>bootstrap</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar bootstrap"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h5 class="card-title">バックエンド</h5>
+                <p class="card-text">直近ではAPI開発でLaravelを使用しました。</p>
+                <div class="skill-table">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th>技術</th>
+                      <th>スキル</th>
+                    </tr>
+                    <tr>
+                      <td>PHP</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar php"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>firebase</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar firebase"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h5 class="card-title">DB</h5>
+                <p class="card-text">直近ではMySQLを使用しました。</p>
+                <div class="skill-table">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th>技術</th>
+                      <th>スキル</th>
+                    </tr>
+                    <tr>
+                      <td>MySQL</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar mysql"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h5 class="card-title">その他</h5>
+                <p class="card-text">開発等で使用したツールやFWです。</p>
+                <div class="skill-table">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th>技術</th>
+                      <th>スキル</th>
+                    </tr>
+                    <tr>
+                      <td>git</td>
+                      <td>
+                        <div class="graph">
+                          <div class="bar git"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h5 class="card-title">保有資格</h5>
+                <p class="card-text">社会人になってから取得したものです。</p>
+                <div class="skill-list">
+                  <ul>
+                    <li>基本情報技術者</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="works field">
+        <div class="title work">
+          <h2 id="works">成果物</h2>
+        </div>
+        <div class="portforios">
+          <div class="portforio">
+            <div class="portforio-img">
+              <img
+                src="./images/ポートフォリオサイト.png"
+                alt=""
+                width="200px"
+              />
+            </div>
+            <div class="portforio-title">
+              <p>ポートフォリオ</p>
+            </div>
+            <div class="portforio explanation">
+              <p>自分自身のポートフォリオです。</p>
+            </div>
+            <div class="used-technical">
+              <p>HTML/CSS/bootstrap4</p>
+            </div>
+            <div class="portforio-src">
+              <a href="#">github</a>
+            </div>
+          </div>
+          <div class="portforio">
+            <div class="portforio-img">
+              <img src="./images/ssdb.png" alt="" width="200px" />
+            </div>
+            <div class="portforio-title">
+              <p>StudySupportDB</p>
+            </div>
+            <div class="portforio explanation">
+              <p>プログラミング・資格学習をサポートするアプリです</p>
+            </div>
+            <div class="used-technical">
+              <p>HTML/CSS/bootstrap4</p>
+            </div>
+            <div class="portforio-src">
+              <a href="#">github</a>
+            </div>
+          </div>
+          <div class="portforio">
+            <div class="portforio-img">
+              <img src="./images/位置共有アプリ.jpg" alt="" width="200px" />
+            </div>
+            <div class="portforio-title">
+              <p>位置共有アプリ</p>
+            </div>
+            <div class="portforio explanation">
+              <p>家族や友達と位置を共有するアプリです</p>
+            </div>
+            <div class="used-technical">
+              <p>HTML/CSS/bootstrap4</p>
+            </div>
+            <div class="portforio-src">
+              <a href="#">github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact field">
+        <div class="title contact">
+          <h2 id="contact">お問い合わせ</h2>
+          <p>何かありましたらtwitterのDMからどしどしご連絡をください。</p>
+        </div>
+        <a href="#" class="twitter-path">
+          <img src="./images/ツイッターの写真.png" alt="" />
+          Twitter
+        </a>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="caption">
+        <ul class="caption-list">
+          <li>プロフィール</li>
+          <li>スキル</li>
+          <li>成果物</li>
+          <li>お問い合わせ</li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js//main.js"></script>
+  </body>
+</html>

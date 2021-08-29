@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.main {
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  background-image: url(../images/ヘッダー画像.jpg);
+  background-size: cover;
+  background-position: right center;
+  padding: 200px 15px;
+  width: 100%;
+}
+
+.field {
+  padding: 50px 15px;
+}
+
+.profile {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.skill {
+  width: 100%;
+}
+
+.card-body {
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.skill-table {
+  /* background-color: violet; */
+  margin: 0 auto;
+  width: 60%;
+}
+
+.graph {
+  background-color: #9c9898;
+  width: 200px;
+}
+
+.bar {
+  color: #fff;
+  animation: bar-animation 1 2s;
+  height: 25px;
+}
+
+.bar.html {
+  background-color: #fd7473;
+  max-width: 80%;
+}
+
+.bar.css {
+  background-color: #47b8e0;
+  max-width: 70%;
+}
+
+.bar.javascript {
+  background-color: #fec951;
+  max-width: 80%;
+}
+
+.bar.jquery {
+  background-color: #f57e00;
+  max-width: 80%;
+}
+
+.bar.bootstrap {
+  background-color: #181bf2;
+  max-width: 60%;
+}
+
+.bar.php {
+  background-color: #9f68d0;
+  max-width: 90%;
+}
+
+.bar.firebase {
+  background-color: #f5cc00;
+  max-width: 30%;
+}
+
+.bar.mysql {
+  background-color: #ce273d;
+  max-width: 60%;
+}
+
+.bar.apache {
+  background-color: #0af3ff;
+  max-width: 30%;
+}
+
+.bar.git {
+  background-color: #5aef1a;
+  max-width: 50%;
+}
+
+@keyframes bar-animation {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.bar.html {
+  width: 80%;
+  /* background-color: red; */
+}
+.work {
+  text-align: center;
+}
+
+.works {
+  background-color: #f3f3f3;
+  width: 100%;
+}
+
+.portforios {
+  display: flex;
+  width: 100%;
+}
+
+.portforio {
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+}
+
+.twitter-path img {
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 0px 15px;
+}
+
+.caption {
+  padding: 30px;
+  border: white 2px solid;
+}
+
+.caption-list {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  width: 30%;
+}
+
+li {
+  padding: 15px;
+}
