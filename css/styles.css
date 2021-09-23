@@ -113,10 +113,8 @@ td{
 
 .bar {
   color: #fff;
-  /* animation-name: bar-animation; */
-
-  /* animation-duration:3s; */
   border-radius: 10%;
+  opacity: 0;
 
   height: 25px;
   text-align: center;
@@ -125,6 +123,7 @@ td{
 .bar.slidein{
   animation-name: bar-animation;
   animation-duration:3s;
+  animation-fill-mode:forwards;
 }
 
 @keyframes bar-animation {
@@ -133,6 +132,7 @@ td{
   }
   100% {
     width: 100%;
+    opacity: 1;
   }
 }
 
@@ -195,6 +195,11 @@ td{
 .bar.git {
   background-color: #5aef1a;
   max-width: 50%;
+}
+
+.bar.aws{
+  background-color: #4994FD;
+  max-width: 70%;
 }
 
 
