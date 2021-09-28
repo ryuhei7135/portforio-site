@@ -153,32 +153,32 @@ td{
 
 .bar.html {
   background-color: #fd7473;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .bar.css {
   background-color: #47b8e0;
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .bar.javascript {
   background-color: #fec951;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .bar.jquery {
   background-color: #f57e00;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .bar.bootstrap {
   background-color: #4785AE;
-  max-width: 60%;
+  max-width: 50%;
 }
 
 .bar.php {
   background-color: #9f68d0;
-  max-width: 90%;
+  max-width: 60%;
 }
 
 .bar.firebase {
@@ -188,7 +188,7 @@ td{
 
 .bar.mysql {
   background-color: #ce273d;
-  max-width: 60%;
+  max-width: 50%;
 }
 
 
@@ -199,7 +199,7 @@ td{
 
 .bar.aws{
   background-color: #4994FD;
-  max-width: 70%;
+  max-width: 30%;
 }
 
 
