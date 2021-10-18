@@ -78,7 +78,6 @@ h2.profile{
 
 .skill {
   width: 100%;
-  /* border: 2px blue solid; */
 
 }
 
@@ -104,110 +103,57 @@ td{
   list-style: none;
 }
 
-.graph{
-  background-color: rgba(192, 192, 192, 0.5);
-  border-radius: 10%;
-
+.star{
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  color: #fc6530;
+  font-weight: 900;
 }
 
-
-.bar {
-  color: #fff;
-  border-radius: 10%;
-  opacity: 0;
-
-  height: 25px;
-  text-align: center;
+.star[data-type="html"]::before{
+  content:"\f005\f005\f005\f005\f005\f005";
 }
 
-.bar.slidein{
-  animation-name: bar-animation;
-  animation-duration:3s;
-  animation-fill-mode:forwards;
+.star[data-type="css"]::before{
+  content:"\f005\f005\f005\f005\f005\f005";
 }
 
-@keyframes bar-animation {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 100%;
-    opacity: 1;
-  }
+.star[data-type="bootstrap"]::before{
+  content:"\f005\f005";
 }
 
-
-.percent.fadein{
-  animation-name: percent;
-  animation-duration:3s;
+.star[data-type="javascript"]::before{
+  content:"\f005\f005\f005\f005\f005";
 }
 
-@keyframes percent{
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.star[data-type="jquery"]::before{
+  content:"\f005\f005\f005";
 }
 
-.bar.html {
-  background-color: #fd7473;
-  max-width: 60%;
+.star[data-type="php"]::before{
+  content:"\f005\f005\f005";
 }
 
-.bar.css {
-  background-color: #47b8e0;
-  max-width: 60%;
+.star[data-type="firebase"]::before{
+  content:"\f005\f005";
 }
 
-.bar.javascript {
-  background-color: #fec951;
-  max-width: 60%;
+.star[data-type="mysql"]::before{
+  content:"\f005\f005\f005";
 }
 
-.bar.jquery {
-  background-color: #f57e00;
-  max-width: 60%;
+.star[data-type="git"]::before{
+  content:"\f005\f005\f005\f005\f005\f005";
 }
 
-.bar.bootstrap {
-  background-color: #4785AE;
-  max-width: 50%;
+.star[data-type="aws"]::before{
+  content:"\f005\f005";
 }
 
-.bar.php {
-  background-color: #9f68d0;
-  max-width: 60%;
+.star[data-type="docker"]::before{
+  content:"\f005";
 }
 
-.bar.firebase {
-  background-color: #f5cc00;
-  max-width: 30%;
-}
-
-.bar.mysql {
-  background-color: #ce273d;
-  max-width: 50%;
-}
-
-
-.bar.git {
-  background-color: #5aef1a;
-  max-width: 50%;
-}
-
-.bar.aws{
-  background-color: #4994FD;
-  max-width: 30%;
-}
-
-
-
-.bar.html {
-  width: 80%;
-  /* background-color: red; */
-}
 .work {
   text-align: center;
 }
@@ -215,7 +161,6 @@ td{
 .works {
   background-color: #f6f6f7;
   width: 100%;
-  /* border: 2px blue solid; */
 
 }
 
@@ -248,37 +193,6 @@ td{
 
 }
 
-
-/* .icon{
-  border-radius: 50%;
-  background-color: #1d809f;
-  width: 50%;
-} */
-
-/* .icon:hover{
-  background-color: #155d74;
-
-} */
-/* 
-.twitter-link,.insta-link{
-  color: #fff;
-}
-
-.twitter-link:hover{
-  color: #fff;
-  
-}
-
-.insta-link:hover{
-  color: #fff;
-
-} */
-
-/* .contact-target{
-  display: flex;
-  list-style: none;
-  justify-content: center;
-} */
 
 .profile-contents ul{
   text-align: left;
