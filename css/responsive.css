@@ -21,6 +21,9 @@
         font-size: 50px;
     }
     
+    .profile-photo img{
+        width: 50%;
+    }
 
     .skill-table{
         width: 100%;
